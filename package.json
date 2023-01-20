@@ -1,0 +1,23 @@
+{
+  "name": "202301-w1chwe-lorena-anaya-angel-contioso",
+  "version": "1.0.0",
+  "description": "Landing page for Travellian company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LorenaAnayaDiaz/202301-w1chwe-lorena-anaya-angel-contioso.git"
+  },
+  "author": "Angel Contioso y Lorena Anaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LorenaAnayaDiaz/202301-w1chwe-lorena-anaya-angel-contioso/issues"
+  },
+  "homepage": "https://github.com/LorenaAnayaDiaz/202301-w1chwe-lorena-anaya-angel-contioso#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}

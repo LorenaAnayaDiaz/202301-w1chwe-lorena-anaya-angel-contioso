@@ -1,0 +1,12 @@
+.section-card-container {
+  display: flex;
+}
+
+.section-card__card {
+  width: 33%;
+  border: 2px solid green;
+}
+
+.section-card__photo-card {
+  background-image: url();
+}

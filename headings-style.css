@@ -73,6 +73,13 @@
     padding: 1.5rem;
   }
 
+  .reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+
   .document-headings__text-main {
     font-size: 4rem;
     line-height: 1.5;

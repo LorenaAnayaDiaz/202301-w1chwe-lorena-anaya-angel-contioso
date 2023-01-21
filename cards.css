@@ -5,15 +5,15 @@
 
 .section-card__card {
   width: 100%;
-
   padding: 0.8rem;
+  font-family: "Rubik";
 }
 
 .section-card__photo-card-1 {
   width: 100%;
   height: 300px;
   background-image: url(img/roma.jpeg);
-  background-position: center;
+  background-position: 50% 35%;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px 20px 0px 0px;
@@ -23,7 +23,7 @@
   width: 100%;
   height: 300px;
   background-image: url(img/partenon.jpeg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px 20px 0px 0px;
@@ -32,7 +32,7 @@
   width: 100%;
   height: 300px;
   background-image: url(img/venecia.jpeg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px 20px 0px 0px;
@@ -64,6 +64,7 @@
 
 .header__card-title {
   color: #767e86;
+  font-family: "Mulish", sans-serif;
 }
 
 .fa-solid {
@@ -73,6 +74,12 @@
 .section__card-info-card-price-details {
   display: flex;
   justify-content: space-between;
+}
+
+.section__card-info {
+  font-family: "Rubik";
+  font-size: 18px;
+  color: #172432;
 }
 
 .section__card-info-card-price-details div span {

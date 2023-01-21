@@ -218,17 +218,30 @@
   height: auto;
 }
 
-.view-more-container__button {
+.view-more-container__button2 {
   font-family: "Rubik";
   color: white;
   background: #ff7757;
   font-size: 1rem;
   border-radius: 10px;
   border: none;
-  padding: 10px;
+  padding: 15px;
+  margin-left: 5%;
+  display: none;
 }
 
-@media (min-width: 320px) {
+.view-more-container__button1 {
+  font-family: "Rubik";
+  color: white;
+  background: #ff7757;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  margin-left: 5%;
+}
+
+@media (min-width: 321px) {
   .trips-container {
     display: flex;
     flex-wrap: wrap;
@@ -435,5 +448,14 @@
     padding: 0;
 
     height: auto;
+  }
+
+  .view-more-container__button2 {
+    margin-left: 50%;
+    display: block;
+  }
+
+  .view-more-container__button1 {
+    display: none;
   }
 }

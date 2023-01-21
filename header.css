@@ -1,0 +1,9 @@
+.section__header {
+  display: flex;
+  background: gray;
+}
+
+.header-nav__inner {
+  display: flex;
+  justify-content: space-between;
+}

@@ -7,3 +7,16 @@
   display: flex;
   justify-content: space-between;
 }
+
+.container-logo {
+  display: flex;
+}
+
+.header-logo {
+  border: lime 2px;
+}
+
+.section__header {
+  display: flex;
+  background: gray;
+}

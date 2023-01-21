@@ -7,6 +7,7 @@
 .destinations-container__cards {
   display: flex;
   flex-direction: column;
+  line-height: 1.8;
 }
 
 .destinations-container {
@@ -90,16 +91,22 @@
 
   .destinations-container__card-1-photo {
     margin-right: 1rem;
-    height: 400px;
+    height: 500px;
   }
   .destinations-container__card-2-photo {
     display: flex;
     margin-right: 1rem;
-    height: 400px;
+    height: 500px;
   }
   .destinations-container__card-3-photo {
     display: flex;
-    height: 400px;
-    margin-right: -8rem;
+    height: 500px;
+  }
+  .destinations-container__card-title {
+    font-size: 1.8rem;
+  }
+
+  .destinations-container__card-place {
+    font-size: 1.3rem;
   }
 }

@@ -1,0 +1,495 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.trips-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trips-container__card-rome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.trips-container__card-paris {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.trips-container__card-budapest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.trips-container__card-madrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+.blog-container__image {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 26px;
+  padding: 0.4rem;
+}
+
+.trips-container__card-rome-image {
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem;
+  width: auto;
+}
+
+.trips-container__card-rome-image {
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem;
+  width: auto;
+}
+
+.trips-container__card-paris-image {
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem;
+  width: auto;
+}
+
+.trips-container__card-madrid-image {
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem;
+  width: auto;
+}
+
+.trips-container__card-budapest-image {
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem;
+  width: auto;
+}
+
+.blog-container__text-heading {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+
+.blog-container__text-info {
+  font-family: "Rubik", serif;
+  font-weight: 400;
+  line-height: 2.1;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+.blog-container__text-read-more {
+  font-family: "Rubik", serif;
+  font-weight: 400;
+  line-height: 2.1;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  display: flex;
+  color: #ff7757;
+
+  gap: 4rem;
+}
+
+.fa-solid {
+  color: #ff7757;
+  font-weight: 700;
+  align-self: center;
+  font-size: 2rem;
+}
+
+.image {
+  width: 30rem;
+  border-radius: 26px;
+  padding: 1rem;
+  width: auto;
+  height: auto;
+}
+
+.trips-container__card-rome-info {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  color: #172432;
+}
+
+.trips-container__card-paris-info {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  color: #172432;
+}
+.trips-container__card-madrid-info {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  color: #172432;
+}
+
+.trips-container__card-budapest-info {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  color: #172432;
+}
+
+.trips-container__card-rome-title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #172432;
+}
+
+.trips-container__card-madrid-title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #172432;
+}
+
+.trips-container__card-paris-title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #172432;
+}
+.trips-container__card-budapest-title {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #172432;
+}
+
+.fa-star {
+  color: #ffc107;
+  font-size: small;
+}
+
+.trips-container__stars {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.trips-container__days {
+  position: right;
+}
+
+.paris {
+  width: 20rem;
+  border-radius: 30px;
+  padding: 1rem;
+
+  height: auto;
+}
+
+.view-more-container__button2 {
+  font-family: "Rubik";
+  color: white;
+  background: #ff7757;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  margin-left: 5%;
+  display: none;
+}
+
+.view-more-container__button1 {
+  font-family: "Rubik";
+  color: white;
+  background: #ff7757;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  padding: 15px;
+  margin-left: 5%;
+}
+
+@media (min-width: 321px) {
+  .trips-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .trips-container__card-rome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .trips-container__card-paris {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .trips-container__card-budapest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .trips-container__card-madrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .blog-container__image {
+    width: 18rem;
+    height: 20rem;
+    border-radius: 26px;
+  }
+
+  .trips-container__card-rome-image {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  .trips-container__card-rome-image {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  .trips-container__card-paris-image {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: auto;
+    height: 470px;
+  }
+
+  .trips-container__card-madrid-image {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: auto;
+  }
+
+  .trips-container__card-budapest-image {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: auto;
+  }
+
+  .blog-container__text-heading {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+  }
+
+  .blog-container__text-info {
+    font-family: "Rubik", serif;
+    font-weight: 400;
+    line-height: 2.1;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  .blog-container__text-read-more {
+    font-family: "Rubik", serif;
+    font-weight: 400;
+    line-height: 2.1;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    display: flex;
+    color: #ff7757;
+    padding: 0;
+    gap: 4rem;
+  }
+
+  .fa-solid {
+    color: #ff7757;
+    font-weight: 700;
+    align-self: center;
+    font-size: 2rem;
+  }
+
+  .image {
+    width: 30rem;
+    border-radius: 26px;
+    padding: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .trips-container__card-rome-info {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #172432;
+  }
+
+  .trips-container__card-paris-info {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #172432;
+  }
+  .trips-container__card-madrid-info {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #172432;
+  }
+
+  .trips-container__card-budapest-info {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #172432;
+  }
+
+  .trips-container__card-rome-title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #172432;
+  }
+
+  .trips-container__card-madrid-title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #172432;
+  }
+
+  .trips-container__card-paris-title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #172432;
+  }
+  .trips-container__card-budapest-title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #172432;
+  }
+
+  .fa-star {
+    color: #ffc107;
+    font-size: small;
+  }
+
+  .trips-container__stars {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .trips-container__days {
+    position: right;
+  }
+
+  .trips-container__text {
+    margin-top: -150px;
+    visibility: hidden;
+  }
+  .paris {
+    width: 20rem;
+
+    padding: 0;
+
+    height: auto;
+  }
+
+  .view-more-container__button2 {
+    margin-left: 50%;
+    display: block;
+  }
+
+  .view-more-container__button1 {
+    display: none;
+  }
+
+  .image {
+    transition: 0.6s;
+  }
+  .trips-container__card-rome-image:hover + .trips-container__text {
+    visibility: visible;
+  }
+  .trips-container__card-rome-image:hover {
+    transform: translate(0, -180px);
+  }
+
+  .trips-container__card-paris-image:hover + .trips-container__text {
+    visibility: visible;
+  }
+  .trips-container__card-paris-image:hover {
+    transform: translate(0, -180px);
+  }
+  .trips-container__card-madrid-image:hover + .trips-container__text {
+    visibility: visible;
+  }
+  .trips-container__card-madrid-image:hover {
+    transform: translate(0, -180px);
+  }
+
+  .trips-container__card-budapest-image:hover + .trips-container__text {
+    visibility: visible;
+  }
+  .trips-container__card-budapest-image:hover {
+    transform: translate(0, -180px);
+  }
+}

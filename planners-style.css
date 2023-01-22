@@ -442,6 +442,10 @@
     position: right;
   }
 
+  .trips-container__text {
+    margin-top: -150px;
+    visibility: hidden;
+  }
   .paris {
     width: 20rem;
 
@@ -457,5 +461,35 @@
 
   .view-more-container__button1 {
     display: none;
+  }
+
+  .image {
+    transition: 0.6s;
+  }
+  .trips-container__card-rome-image:hover + .trips-container__text {
+    visibility: visible;
+  }
+  .trips-container__card-rome-image:hover {
+    transform: translate(0, -180px);
+  }
+
+  .trips-container__card-paris-image:hover + .trips-container__text {
+    visibility: visible;
+  }
+  .trips-container__card-paris-image:hover {
+    transform: translate(0, -180px);
+  }
+  .trips-container__card-madrid-image:hover + .trips-container__text {
+    visibility: visible;
+  }
+  .trips-container__card-madrid-image:hover {
+    transform: translate(0, -180px);
+  }
+
+  .trips-container__card-budapest-image:hover + .trips-container__text {
+    visibility: visible;
+  }
+  .trips-container__card-budapest-image:hover {
+    transform: translate(0, -180px);
   }
 }

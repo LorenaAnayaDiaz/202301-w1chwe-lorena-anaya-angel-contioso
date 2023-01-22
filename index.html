@@ -7,23 +7,155 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="travellian.png">
   <script src="https://kit.fontawesome.com/32395a3ebd.js" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/a24edb4fb4.js" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="cards.css">
-
+  <link rel="stylesheet" href="destinations-cards.css">
+  <link rel="stylesheet" href="headings-style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Mulish&family=Nunito:wght@500&family=Playfair+Display&family=Rubik&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="header.css">
+
   <title>TRAVELLIAN</title>
 </head>
 
 <body>
-  <h1>HOLA MUNDO</h1>
 
-  <section class="section-card-container">
+
+
+ <header class="section__header">
+
+    <div class="container-logo-nav">
+      <div class="container-logo">
+        <div class="header-logo"><img src="img/Vector.png" alt=""></div>
+        <div class="header-name"><img src="img/Travellian.png" alt=""></div>
+      </div>
+
+      <div class="header-nav">
+        <div class="header-nav__inner">
+          <nav><a href="">Home</a><a href="">Explore</a><a href="">Travel</a><a href="">Blog</a><a href="">Pricing</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="section-header__hamburguer-menu"><img src="img/hamburguesa.png" alt=""></div>
+    <div class="container--button"><button>Login</button><button>Sing up</button></div>
+  </header>
+  <main>
+    <section class="container-hero-image">
+      <div class="head-titles">
+        <div class="head-title-1">Start your unforguetable</div>
+        <div class="head-title-2">journey with us</div>
+        <div class="head-title__subtitle">The best travel for your journey begins now</div>
+        <section class="container-form">
+          <form action="" method="post">
+            <ul>
+              <div><label for="name">DESTINATION</label>
+                <li class="form-name">
+                  <input type="text" id="name" name="user_name">
+              </div>
+
+              <div>
+                </li>
+                <label for="name">PERSON</label>
+                <li class="form-name">
+                  <input type="number" id="name" name="user_name">
+                </li>
+              </div>
+
+              <div><label for="name">CHECK-IN</label>
+                <li class="form-name">
+                  <input type="date" id="name" name="user_name">
+                </li>
+              </div>
+
+
+              <div><label for="date">CHECK-OUT</label>
+                <li class="form-name">
+                  <input type="date" id="name" name="user_name">
+                </li>
+              </div>
+
+
+
+
+
+            </ul>
+
+          </form>
+          <li class="form-button">
+            <button type="submit">Book Now</button><i class="fa-thin fa-arrow-right"></i>
+          </li>
+        </section>
+      </div>
+
+
+
+    </section>
+
+
+  <section class="document-headings">
+    <div class="document-headings__text">
+      <h1 class="document-headings__text-main">Popular Destinations</h1>
+      <p class="document-headings__text-secondary">Most popular destinations around the world, from historical places to
+        natural wonders.</p>
+    </div>
+    <div class="document-headings__buttons-desktop">
+      <img class="document-headings__buttons-desktop-picture" src="left.png">
+      <img class="document-headings__buttons-desktop-picture" src="right.png">
+    </div>
+  </section>
+  <div class="document-headings__buttons-mobile">
+    <img class="document-headings__buttons-mobile-picture" src="left.png">
+    <img class="document-headings__buttons-mobile-picture" src="right.png">
+  </div>
+  
+    <section class="destinations-container">
+    <article class="destinations-container__cards">
+
+      <div class="destinations-container__card-1-photo">
+        <div class="destinations-container__card-1">
+          <p class="destinations-container__card-title">Monument of Berlin</p>
+          <p class="destinations-container__card-place"><i class="fa-solid fa-location-dot"></i> Berlin, Germany</p>
+        </div>
+      </div>
+
+      <div class="destinations-container__card-2-photo">
+        <div class="destinations-container__card-2">
+          <p class="destinations-container__card-title">Millenium Bridge</p>
+          <p class="destinations-container__card-place"><i class="fa-solid fa-location-dot"></i> London, United Kingdom
+          </p>
+        </div>
+      </div>
+
+      <div class="destinations-container__card-3-photo">
+        <div class="destinations-container__card-3">
+          <p class="destinations-container__card-title">Rialto Bridge</p>
+          <p class="destinations-container__card-place"><i class="fa-solid fa-location-dot"></i> Venice, Italy</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="document-headings reverse">
+    <div class="document-headings__text">
+      <h1 class="document-headings__text-main">Special Offer</h1>
+      <p class="document-headings__text-secondary">Check out our special offer and discounts.</p>
+    </div>
+    <div class="document-headings__buttons-desktop">
+      <img class="document-headings__buttons-desktop-picture" src="left.png">
+      <img class="document-headings__buttons-desktop-picture" src="right.png">
+    </div>
+  </section>
+  <div class="document-headings__buttons-mobile">
+    <img class="document-headings__buttons-mobile-picture" src="left.png">
+    <img class="document-headings__buttons-mobile-picture" src="right.png">
+  </div>
+   <section class="section-card-container">
 
 
     <article class="section-card__card">
@@ -118,6 +250,58 @@
     </article>
 
   </section>
+
+  <section class="document-headings">
+    <div class="document-headings__text">
+      <h1 class="document-headings__text-main">Our Blog</h1>
+      <p class="document-headings__text-secondary">An insight of the incredible experience in the world.</p>
+    </div>
+    <div class="document-headings__buttons-desktop">
+      <img class="document-headings__buttons-desktop-picture" src="left.png">
+      <img class="document-headings__buttons-desktop-picture" src="right.png">
+    </div>
+  </section>
+  <div class="document-headings__buttons-mobile">
+    <img class="document-headings__buttons-mobile-picture" src="left.png">
+    <img class="document-headings__buttons-mobile-picture" src="right.png">
+  </div>
+
+  <section class="document-headings">
+    <div class="document-headings__text">
+      <h1 class="document-headings__text-main">Trip Planners</h1>
+      <p class="document-headings__text-secondary">20 years from now you will be more disappointed by the things that
+        you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.</p>
+    </div>
+    <div class="document-headings__buttons-desktop">
+      <img class="document-headings__buttons-desktop-picture" src="left.png">
+      <img class="document-headings__buttons-desktop-picture" src="right.png">
+    </div>
+  </section>
+  <div class="document-headings__buttons-mobile">
+    <img class="document-headings__buttons-mobile-picture" src="left.png">
+    <img class="document-headings__buttons-mobile-picture" src="right.png">
+  </div>
+
+  <section class="document-headings">
+    <div class="document-headings__text">
+      <h1 class="document-headings__text-main">Traveler's Experiences</h1>
+      <p class="document-headings__text-secondary">Here some awesome feedback from our travelers</p>
+    </div>
+    <div class="document-headings__buttons-desktop">
+      <img class="document-headings__buttons-desktop-picture" src="left.png">
+      <img class="document-headings__buttons-desktop-picture" src="right.png">
+    </div>
+  </section>
+  <div class="document-headings__buttons-mobile">
+    <img class="document-headings__buttons-mobile-picture" src="left.png">
+    <img class="document-headings__buttons-mobile-picture" src="right.png">
+  </div>
+
+ 
+
+
+  </main>
+
 </body>
 
 </html>

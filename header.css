@@ -244,6 +244,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     display: flex;
     width: 720px;
     margin-left: 0;
+    background: white;
   }
 
   .container-form form ul {

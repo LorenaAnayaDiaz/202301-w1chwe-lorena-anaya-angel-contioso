@@ -50,12 +50,28 @@
   margin-top: -100px;
 }
 
-@media (min-width: 600px) {
+.person-2 {
+  display: none;
+}
+
+.person-3 {
+  display: none;
+}
+
+@media (min-width: 321px) {
   .experiences-container {
     flex-direction: row;
   }
 
   .experiences-container__card {
     width: 33%;
+  }
+
+  .person-2 {
+    display: block;
+  }
+
+  .person-3 {
+    display: block;
   }
 }

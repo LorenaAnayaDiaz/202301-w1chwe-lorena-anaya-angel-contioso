@@ -1,0 +1,117 @@
+.section-card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-card__card {
+  width: 100%;
+  padding: 0.8rem;
+  font-family: "Rubik";
+}
+
+.section-card__photo-card-1 {
+  width: 100%;
+  height: 300px;
+  background-image: url(img/roma.jpeg);
+  background-position: 50% 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.section-card__photo-card-2 {
+  width: 100%;
+  height: 300px;
+  background-image: url(img/partenon.jpeg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0px 0px;
+}
+.section-card__photo-card-3 {
+  width: 100%;
+  height: 300px;
+  background-image: url(img/venecia.jpeg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.section-card__photo-card img {
+  background-image: url(img/venecia.jpeg);
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  background-size: cover;
+}
+
+.section-card__info-card {
+  background: #fff8f1;
+  padding: 1rem;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.header__card-title h4 {
+  margin: 0;
+  padding: 1rem 0 0.2rem;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.header__card {
+  margin-bottom: 0.2rem;
+}
+
+.header__card-title {
+  color: #767e86;
+  font-family: "Mulish", sans-serif;
+}
+
+.fa-solid {
+  color: #ffc107;
+}
+
+.section__card-info-card-price-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__card-info {
+  font-family: "Rubik";
+  font-size: 18px;
+  color: #172432;
+}
+
+.section__card-info-card-price-details div span {
+  color: #767e86;
+  font-size: 20px;
+}
+
+.section__card-info-card-price-details div span:nth-child(2) {
+  color: #ff7757;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.section__card-info-card-price-details button {
+  color: white;
+  background: #ff7654;
+  border: none;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 0.5rem 1.2rem;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 600px) {
+  .section-card-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section-card__card {
+    width: 33%;
+  }
+}

@@ -7,4 +7,37 @@
 .footer-container {
   background-color: #172432;
   display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  line-height: 2;
+  padding-left: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer-container__article {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.footer__logo {
+}
+
+.footer-container__article-copyright {
+  font-size: 0.8rem;
+}
+
+.footer-container__article-contact-images {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+}
+
+.footer__logo-image-2 {
+  height: 2.5rem;
+}
+.footer__logo-image-1 {
+  height: 3rem;
 }

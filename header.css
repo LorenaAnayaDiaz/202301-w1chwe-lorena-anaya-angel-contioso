@@ -58,6 +58,11 @@ body {
   display: none;
 }
 
+.section__header button:hover {
+  background: white;
+  color: #ff7757;
+}
+
 .header-nav {
   display: none;
 }
@@ -170,6 +175,7 @@ body {
 .form-button button {
   background: #ff7757;
   color: white;
+  font-family: "Playfair Display";
   border: none;
   padding: 1rem 1rem;
   text-align: left;
@@ -180,7 +186,7 @@ body {
 input[type="date" i] {
   align-items: baseline;
   display: inline-flex;
-  font-family: Arial;
+  font-family: "Rubik";
   padding-inline-start: 1px;
   cursor: default;
   overflow: hidden;
@@ -205,6 +211,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   padding: 1.3rem 0rem;
 }
 
+
 .fa-arrow-right-long:before,
 .fa-long-arrow-right:before {
   content: "\f178";
@@ -216,6 +223,28 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 .head-title-1 {
   font-family: "Playfair Display";
+=======
+.container-form ul div:last-child li {
+  padding: 1rem 0;
+  margin-bottom: 0rem;
+}
+
+.container-form {
+  /* padding: 1rem; */
+  color: gray;
+  background: white;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-family: "Rubik";
+  width: 260px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.container-form ul li {
+  padding: 1rem 0;
+  margin-bottom: 0rem;
+
 }
 
 @media (min-width: 767px) {
@@ -279,7 +308,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   input[type="date" i] {
     align-items: baseline;
     display: inline-flex;
-    font-family: Arial;
+    font-family: "Rubik";
     padding-inline-start: 1px;
     cursor: default;
     overflow: hidden;

@@ -4,6 +4,41 @@
   box-sizing: border-box;
 }
 
+.form-container {
+  color: #767e86;
+  display: flex;
+  flex-direction: column;
+  box-shadow: #767e86;
+  border-radius: 20px;
+  margin: 20px;
+  border: 1px #ffffff;
+  padding: 1rem;
+}
+
+.form-container__title {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.5rem;
+}
+
+.email-form {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#email-input {
+  border: 0;
+  border-radius: 12px;
+
+  font-size: 1.3rem;
+  text-align: center;
+
+  background-color: #ffe8d4;
+}
+
+#email-input::placeholder {
+  color: #ff7757;
+}
 .footer-container {
   background-color: #172432;
   display: flex;

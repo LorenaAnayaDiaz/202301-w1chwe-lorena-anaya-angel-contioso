@@ -5,18 +5,442 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="travellian.png">
   <script src="https://kit.fontawesome.com/32395a3ebd.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="experiences.css">
+
+
+  <link rel="stylesheet" href="planners-style.css">
+
+
+  <link rel="stylesheet" href="blog-style.css">
+<link rel="stylesheet" href="cards.css">
+  <link rel="stylesheet" href="destinations-cards.css">
+  <link rel="stylesheet" href="headings-style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik:wght@300&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="header.css">
+
+
   <title>TRAVELLIAN</title>
 </head>
 
 <body>
-  <section class="experiences-container">
+
+
+ <header class="section__header">
+
+    <div class="container-logo-nav">
+      <div class="container-logo">
+        <div class="header-logo"><img src="img/Vector.png" alt=""></div>
+        <div class="header-name"><img src="img/Travellian.png" alt=""></div>
+      </div>
+
+      <div class="header-nav">
+        <div class="header-nav__inner">
+          <nav><a href="">Home</a><a href="">Explore</a><a href="">Travel</a><a href="">Blog</a><a href="">Pricing</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="section-header__hamburguer-menu"><img src="img/hamburguesa.png" alt=""></div>
+    <div class="container--button"><button>Login</button><button>Sing up</button></div>
+  </header>
+  <main>
+    <section class="container-hero-image">
+      <div class="head-titles">
+        <div class="head-title-1">Start your unforguetable</div>
+        <div class="head-title-2">journey with us</div>
+        <div class="head-title__subtitle">The best travel for your journey begins now</div>
+        <section class="container-form">
+          <form action="" method="post">
+            <ul>
+              <div><label for="name">DESTINATION</label>
+                <li class="form-name">
+                  <input type="text" id="name" name="user_name">
+              </div>
+
+              <div>
+                </li>
+                <label for="name">PERSON</label>
+                <li class="form-name">
+                  <input type="number" id="name" name="user_name">
+                </li>
+              </div>
+
+              <div><label for="name">CHECK-IN</label>
+                <li class="form-name">
+                  <input type="date" id="name" name="user_name">
+                </li>
+              </div>
+
+
+              <div><label for="date">CHECK-OUT</label>
+                <li class="form-name">
+                  <input type="date" id="name" name="user_name">
+                </li>
+              </div>
+
+
+
+
+
+            </ul>
+
+          </form>
+          <li class="form-button">
+            <button type="submit">Book Now</button><i class="fa-thin fa-arrow-right"></i>
+          </li>
+        </section>
+      </div>
+
+
+
+    </section>
+
+
+  <button class="view-more-container__button1">View all trip plans</button>
+  <section class="trips-container">
+    <article class="trips-container__card-rome">
+      <div class="trips-container__card-rome-image">
+        <img class="image" src="img/roma.png">
+      </div>
+      <div class="trips-container__text">
+        <div class="trips-container__card-rome-info">
+          <p>GUIDED TOUR</p>
+          <p>€99/Day</p>
+        </div>
+        <div class="trips-container__card-rome-title">
+          <p>Rome City Tour</p>
+        </div>
+        <div class="trips-container__card-rome-info">
+          <div class="trips-container__stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="trips-container__days">
+            <p>7 days tour</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <div class="trips-container__card-paris">
+      <div class="trips-container__card-paris-image">
+        <img class="image paris" src="img/paris.png">
+      </div>
+      <div class="trips-container__text">
+        <div class="trips-container__card-paris-info">
+          <p>GUIDED TOUR</p>
+          <p>€95/Day</p>
+        </div>
+        <div class="trips-container__card-paris-title">
+          <p>Paris City Tour</p>
+        </div>
+        <div class="trips-container__card-paris-info">
+          <div class="trips-container__stars">
+            <i class="fa-solid fa-star"></i>
+             <div class="trips-container__days">
+            <p>7 days tour</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="trips-container__card-madrid">
+      <div class="trips-container__card-madrid-image">
+        <img class="image" src="img/madrid.png">
+      </div>
+      <div class="trips-container__text">
+        <div class="trips-container__card-madrid-info">
+          <p>GUIDED TOUR</p>
+          <p>€89/Day</p>
+        </div>
+        <div class="trips-container__card-madrid-title">
+          <p>Madrid City Tour</p>
+        </div>
+        <div class="trips-container__card-madrid-info">
+          <div class="trips-container__stars">
+            <i class="fa-solid fa-star"></i>
+            <div class="trips-container__days">
+            <p>7 days tour</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="trips-container__card-budapest">
+      <div class="trips-container__card-budapest-image">
+        <img class="image" src="img/budapest.png">
+      </div>
+      <div class="trips-container__text">
+        <div class="trips-container__card-budapest-info">
+          <p>GUIDED TOUR</p>
+          <p>€89/Day</p>
+        </div>
+        <div class="trips-container__card-budapest-title">
+          <p>Budapest City Tour</p>
+        </div>
+        <div class="trips-container__card-budapest-info">
+          <div class="trips-container__stars">
+            <i class="fa-solid fa-star"></i>
+            <div class="trips-container__days">
+            <p>7 days tour</p>
+          </div>
+
+        </div>
+      </div>
+
+  </section>
+  <button class="view-more-container__button2">View all trip plans</button>
+=======
+
+
+
+
+  <section class="document-headings">
+    <div class="document-headings__text">
+      <h1 class="document-headings__text-main">Popular Destinations</h1>
+      <p class="document-headings__text-secondary">Most popular destinations around the world, from historical places to
+        natural wonders.</p>
+    </div>
+    <div class="document-headings__buttons-desktop">
+      <img class="document-headings__buttons-desktop-picture" src="left.png">
+      <img class="document-headings__buttons-desktop-picture" src="right.png">
+    </div>
+  </section>
+  <div class="document-headings__buttons-mobile">
+    <img class="document-headings__buttons-mobile-picture" src="left.png">
+    <img class="document-headings__buttons-mobile-picture" src="right.png">
+  </div>
+  
+    <section class="destinations-container">
+    <article class="destinations-container__cards">
+
+      <div class="destinations-container__card-1-photo">
+        <div class="destinations-container__card-1">
+          <p class="destinations-container__card-title">Monument of Berlin</p>
+          <p class="destinations-container__card-place"><i class="fa-solid fa-location-dot"></i> Berlin, Germany</p>
+        </div>
+      </div>
+
+      <div class="destinations-container__card-2-photo">
+        <div class="destinations-container__card-2">
+          <p class="destinations-container__card-title">Millenium Bridge</p>
+          <p class="destinations-container__card-place"><i class="fa-solid fa-location-dot"></i> London, United Kingdom
+          </p>
+        </div>
+      </div>
+
+      <div class="destinations-container__card-3-photo">
+        <div class="destinations-container__card-3">
+          <p class="destinations-container__card-title">Rialto Bridge</p>
+          <p class="destinations-container__card-place"><i class="fa-solid fa-location-dot"></i> Venice, Italy</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="document-headings reverse">
+    <div class="document-headings__text">
+      <h1 class="document-headings__text-main">Special Offer</h1>
+      <p class="document-headings__text-secondary">Check out our special offer and discounts.</p>
+    </div>
+    <div class="document-headings__buttons-desktop">
+      <img class="document-headings__buttons-desktop-picture" src="left.png">
+      <img class="document-headings__buttons-desktop-picture" src="right.png">
+    </div>
+  </section>
+  <div class="document-headings__buttons-mobile">
+    <img class="document-headings__buttons-mobile-picture" src="left.png">
+    <img class="document-headings__buttons-mobile-picture" src="right.png">
+  </div>
+   <section class="section-card-container">
+
+
+    <article class="section-card__card">
+      <div class="section-card__photo-card-1"></div>
+      <div class="section-card__info-card">
+        <div class="header__card">
+          <div class="header__card-title">
+            <h4>Lisbon, Portugal</h4>
+          </div>
+          <div class="header__card-rating">
+
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+         
+
+          <p class="section__card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum repellat autem
+            sint quam rem alias,
+            laboriosam rerum commodi quaerat, similique eius cumque est officiis? Sit sapiente ex laboriosam obcaecati
+            sunt!</p>
+          <div class="section__card-info-card-price-details">
+            <div>
+              <span>From</span>
+              <span>500€</span>
+            </div>
+
+            <button>DETAILS</button>
+
+
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="section-card__card">
+      <div class="section-card__photo-card-2"></div>
+      <div class="section-card__info-card">
+        <div class="header__card">
+          <div class="header__card-title">
+            <h4>Lisbon, Portugal</h4>
+          </div>
+          <div class="header__card-rating">
+
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+         
+
+          <p class="section__card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum repellat autem
+            sint quam rem alias,
+            laboriosam rerum commodi quaerat, similique eius cumque est officiis? Sit sapiente ex laboriosam obcaecati
+            sunt!</p>
+          <div class="section__card-info-card-price-details">
+            <div>
+              <span>From</span>
+              <span>500€</span>
+            </div>
+
+            <button>DETAILS</button>
+
+
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="section-card__card">
+      <div class="section-card__photo-card-3"></div>
+      <div class="section-card__info-card">
+        <div class="header__card">
+          <div class="header__card-title">
+            <h4>Lisbon, Portugal</h4>
+          </div>
+          <div class="header__card-rating">
+
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+
+          
+
+          <p class="section__card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum repellat autem
+            sint quam rem alias,
+            laboriosam rerum commodi quaerat, similique eius cumque est officiis? Sit sapiente ex laboriosam obcaecati
+            sunt!</p>
+          <div class="section__card-info-card-price-details">
+            <div>
+              <span>From</span>
+              <span>500€</span>
+            </div>
+
+            <button>DETAILS</button>
+
+
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <section class="document-headings">
+    <div class="document-headings__text">
+      <h1 class="document-headings__text-main">Our Blog</h1>
+      <p class="document-headings__text-secondary">An insight of the incredible experience in the world.</p>
+    </div>
+    <div class="document-headings__buttons-desktop">
+      <img class="document-headings__buttons-desktop-picture" src="left.png">
+      <img class="document-headings__buttons-desktop-picture" src="right.png">
+    </div>
+  </section>
+  <div class="document-headings__buttons-mobile">
+    <img class="document-headings__buttons-mobile-picture" src="left.png">
+    <img class="document-headings__buttons-mobile-picture" src="right.png">
+  </div>
+  <section class="blog-container">
+    <div class="blog-container__image-container">
+      <img class="blog-container__image" src="italy.png">
+    </div>
+
+    <div class="blog-container__text">
+      <h2 class="blog-container__text-heading">Beautiful Italy</h2>
+      <h2 class="blog-container__text-heading">Let's Travel</h2>
+      <p class="blog-container__text-info">But I must explain to you how all this mistaken idea of denouncing pleasure
+        and praising pain was born and I
+        will give
+        you a complete account of the system and expound the actual teachings of the great explorer of the truth, the
+        master-
+        builder of human happiness. No one rejects, dislike, or avoids plasure itself, because it is pleasure, but
+        because those
+        who do not know how to pursue pleasure rationally encounter consequences that are extremly painful. Nor again is
+        there
+        anyone who loves or pursues.</p>
+      <p class="blog-container__text-read-more">Read more <i class="fa-sharp fa-solid fa-arrow-right-long"></i></p>
+
+    </div>
+  </section>
+
+  <section class="document-headings">
+    <div class="document-headings__text">
+      <h1 class="document-headings__text-main">Trip Planners</h1>
+      <p class="document-headings__text-secondary">20 years from now you will be more disappointed by the things that
+        you didn’t do. Stop regretting and start travelling, start throwing off the bowlines.</p>
+    </div>
+    <div class="document-headings__buttons-desktop">
+      <img class="document-headings__buttons-desktop-picture" src="left.png">
+      <img class="document-headings__buttons-desktop-picture" src="right.png">
+    </div>
+  </section>
+  <div class="document-headings__buttons-mobile">
+    <img class="document-headings__buttons-mobile-picture" src="left.png">
+    <img class="document-headings__buttons-mobile-picture" src="right.png">
+  </div>
+
+  <section class="document-headings">
+    <div class="document-headings__text">
+      <h1 class="document-headings__text-main">Traveler's Experiences</h1>
+      <p class="document-headings__text-secondary">Here some awesome feedback from our travelers</p>
+    </div>
+    <div class="document-headings__buttons-desktop">
+      <img class="document-headings__buttons-desktop-picture" src="left.png">
+      <img class="document-headings__buttons-desktop-picture" src="right.png">
+    </div>
+  </section>
+  <div class="document-headings__buttons-mobile">
+    <img class="document-headings__buttons-mobile-picture" src="left.png">
+    <img class="document-headings__buttons-mobile-picture" src="right.png">
+  </div>
+<section class="experiences-container">
 
     <article class="experiences-container__card person-1">
       <img class="avatar" src="img/Avatar1.png">
@@ -75,6 +499,11 @@
       <p class="experiences-container__text">Managing Director, JTH</p>
     </article>
   </section>
+ 
+
+
+  </main>
+
 </body>
 
 </html>

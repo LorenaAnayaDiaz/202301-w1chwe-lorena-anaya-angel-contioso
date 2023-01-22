@@ -103,13 +103,6 @@
   gap: 4rem;
 }
 
-.fa-solid {
-  color: #ff7757;
-  font-weight: 700;
-  align-self: center;
-  font-size: 2rem;
-}
-
 .image {
   width: 30rem;
   border-radius: 26px;
@@ -335,13 +328,14 @@
     gap: 4rem;
   }
 
+  /*
   .fa-solid {
     color: #ff7757;
     font-weight: 700;
     align-self: center;
     font-size: 2rem;
   }
-
+*/
   .image {
     width: 30rem;
     border-radius: 26px;

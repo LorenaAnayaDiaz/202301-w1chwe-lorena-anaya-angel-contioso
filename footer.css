@@ -22,9 +22,6 @@
   padding-top: 3rem;
 }
 
-.footer__logo {
-}
-
 .footer-container__article-copyright {
   font-size: 0.8rem;
 }
@@ -40,4 +37,19 @@
 }
 .footer__logo-image-1 {
   height: 3rem;
+}
+
+@media (min-width: 600px) {
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-container__article-logo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+  }
 }

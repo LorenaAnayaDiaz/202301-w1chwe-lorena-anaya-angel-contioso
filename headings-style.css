@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.document-headings {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.document-headings__text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.document-headings__text-main {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #172432;
+  border-bottom: 2.5px solid #ff7757;
+  padding-bottom: 1.1rem;
+}
+
+.document-headings__text-secondary {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  color: #767e86;
+  padding-top: 1.4rem;
+}
+
+.document-headings__buttons-mobile {
+  border: 2px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: CENTER;
+  gap: 2rem;
+}
+
+.document-headings__buttons-mobile-picture {
+  width: 17%;
+}
+.document-headings__buttons-desktop {
+  display: none;
+}
+
+@media (min-width: 321px) {
+  .document-headings__buttons-mobile {
+    display: none;
+  }
+  .document-headings__buttons-mobile-picture {
+    display: none;
+  }
+
+  .document-headings__buttons-desktop {
+    border: 2px solid #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 2rem;
+  }
+  .document-headings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+
+  .reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+
+  .document-headings__text-main {
+    font-size: 4rem;
+    line-height: 1.5;
+  }
+
+  .document-headings__text-secondary {
+    font-size: 1.2rem;
+  }
+
+  .document-headings__buttons-desktop-picture {
+    width: 40%;
+    align-self: end;
+  }
+}
